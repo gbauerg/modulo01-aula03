@@ -10,4 +10,4 @@ DESCONTO = 0.9
 
 valor_desconto = float(preço_bruto*DESCONTO)
 
-print(f"O valor sem desconto é R${preço_bruto}. Com os 10% de desconto, você irá pagar R${valor_desconto}.")
+print(f"O valor sem desconto é R${preço_bruto:.2f}. Com os 10% de desconto, você irá pagar R${valor_desconto:.2f}.")
